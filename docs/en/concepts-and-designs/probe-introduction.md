@@ -25,7 +25,7 @@ There are several recommend ways in using these probes:
 1. Use **Service Mesh probe** only.
 1. Use **Service Mesh probe** with **Language based native agent** or **3rd-party instrument library** in tracing status. (Advanced usage)
 
-In addition, let's example what is the meaning of **in tracing status**?
+In addition, let's examine what is the meaning of **in tracing status**?
 
 In default, **Language based native agent** and **3rd-party instrument library** both send distributed traces to backend,
 which do analysis and aggregate on those traces. **In tracing status** means, backend considers these traces as something
